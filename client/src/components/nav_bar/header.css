@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 72px;
+}
+
+.user-block{
+    float: right;
+    height: 100%;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-block{
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.sign-in{
+    line-height: 32px;
+    text-align: center;
+    font-size: 11px;
+    background: #2c84db;
+    border: 1px solid #2c84db;
+    padding: 0 28px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.logo{
+    float: left;
+    display: inline-block;
+    align-items: flex-start;
+}

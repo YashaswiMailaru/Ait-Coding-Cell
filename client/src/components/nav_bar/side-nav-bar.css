@@ -1,0 +1,72 @@
+
+.side-nav-bar{
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #313131;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.side-nav-bar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.side-nav-bar a:hover{
+    background-color: grey;
+}
+
+.side-nav-bar img{
+    height: 80px;
+    width: 80px;
+    padding-left: 85px;
+}
+
+.side-nav-bar p{
+    width: 250px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-bottom: solid white 1px;
+}
+
+.side-nav-bar button{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+}
+
+.side-top{
+    width: 100%;
+    height: 50px;
+    background-color: #313131;
+}
+
+.hamburger-btn{
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    width: 22px;
+    z-index: 1000000;
+}
+
+.hamburger-btn div{
+    width: 22px;
+    height: 3px;
+    background-color: white;
+    margin-top: 4px;
+}
+.side-nav-bar p:hover{
+    background-color: grey;
+}

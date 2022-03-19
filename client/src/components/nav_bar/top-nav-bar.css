@@ -1,0 +1,28 @@
+
+.top-nav-bar{
+    overflow: hidden;  
+    background-color: #313131;
+    width: 100%;
+}
+
+.top-nav-bar a{
+    float: right;
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav-bar img{
+    float: right;
+    height : 40px;
+    padding: 11px 15px;
+}
+
+.top-nav-bar a:hover{
+    /*background-color: grey;*/ 
+    padding-bottom: 14px;
+    border-bottom: 1px solid #fff;
+    border-bottom-width: 5px;
+}
